@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(212,239,241);
+}
+.sectionA{
+    display: grid;
+    grid-template-columns: 40vw 59vw;
+}
+.sectionA1{
+    padding: 20px 0 0 60px;
+}
+.sectionA2{
+    display: flex;
+    height: 15vh;
+}
+.walletimg{
+    width: 100px;
+    height: 100px;
+}
+.headingred{
+    color: rgb(255,91,36);
+    font-size: 30px;
+    text-align: left;
+}
+.headingmain{
+    color: rgb(165,223,226);
+    text-align: left;
+    margin-left: 100px;
+}
+.sectionA3{
+    background-color: rgb(255,91,36);
+    padding: 20px 60px 80px 0;
+    border-radius: 20px 0 0 20px;
+}
+.sectionA4{
+    display: flex;
+    column-gap: 100px;
+    color: white;
+    text-align: left;
+    font-size:xx-large;
+}
+.ham{
+    float: right;
+}
+.hambtn{
+    width: 40px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.mobileimg{
+    margin-left: -100px;
+}
+.loadbtn{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;  
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.fontred{
+    color: rgb(255,91,36);
+}
+.sectionB1{
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
+    background-color: rgb(199,230,231);
+    height: 20vh;
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 0 ;
+}
+#middiv{
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+.sectionD{
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 50vw 30vw;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.sectionD1{
+    width: 30vw;
+    margin: auto;
+    text-align: left;
+}
+.fontbig{
+    font-size: 40px;
+}
+.learnmore{
+    border: none;
+    background-color: transparent;
+    color: rgb(255,91,36);
+    font-size: large;
+    font-weight: bold;
+}
+.imgbg{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    background-color: rgb(255,91,36);
+}
+.phonebg{
+    transform: rotate(-30deg);
+}
+.advisorbg{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 30px;
+}
+.sectionE{
+    background-color: rgb(199,230,231);
+}
+.sectionE1{
+    display: grid;
+    grid-template-columns: repeat(5, 15vw);
+    justify-content: center;
+    align-items: flex-end;
+}
+.sectionE2{
+    display: grid;
+    grid-template-columns: repeat(4, 15vw);
+    justify-content: center;
+    align-items: flex-end;
+}
+.morebtn{
+    border: none;
+    background-color: rgb(255,91,36);
+    width: 100px;
+    color: white;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.sectionF{
+    display: grid;
+    grid-template-columns: 40vw 30vw;
+    justify-content: center;
+    padding: 20px 0;
+}
+.sectionF1{
+    text-align: left;
+    width: 30vw;
+}
+.footer{
+    width: 90vw;
+    background-color: rgb(199,230,231);
+    margin: auto;
+    padding: 40px 0;
+}
+@media screen and (max-width:900px) {
+    .sectionA{
+        grid-template-columns: auto;
+    }
+    .mobileimg{
+        margin-left: 5px;
+    }
+    .sectionB1{
+        grid-template-columns: auto;
+        height: fit-content;
+    }
+    .sectionD{
+        grid-template-columns: auto;
+        width: auto;
+    }
+    .sectionD1{
+        width: auto;
+        margin-left: 100px;
+    }
+    .sectionE1{
+        grid-template-columns: auto;
+    }
+    .sectionE2{
+        grid-template-columns: auto;
+    }
+    .sectionF{
+        grid-template-columns: auto;
+    }
+    .sectionA4{
+        flex-direction: column;
+    }
+    .advisorbg{
+        width: auto;
+    }
+    .fontbig{
+        font-size: 20px;
+        width: 80vw;
+        margin-left: 50px;
+    }
+    .paraleft{
+        width: 80vw;
+        margin: auto;
+    }
+    #moreleft{
+        margin: 50px;
+    }
+}
